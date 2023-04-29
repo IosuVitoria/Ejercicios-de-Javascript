@@ -1,0 +1,33 @@
+.titulo{
+    background-color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    width: 50%;
+    height: 50%;
+    color:darkgreen; 
+    text-align: center;
+}
+
+.centrar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    background-color: coral;
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+  
+.hijo {
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    /* centrar vertical y horizontalmente */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px; /* aplicar a top y al margen izquierdo un valor negativo para completar el centrado del elemento hijo */
+}

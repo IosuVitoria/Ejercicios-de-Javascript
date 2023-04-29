@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIMER CSS + HTML + js</title>
+    <link rel="stylesheet" href="ejercicio1_css.css">
+    <script>
+        function saludo(){
+            let nombre = document.getElementById("nombre1").value;
+            alert("No tengas miendo de Javascript "+ nombre+"!");
+        }
+    </script>
+    
+</head>
+<body>
+    <div class = "contenedor">
+        <div class="hijo">
+            <h1 class="titulo">HOLA MUNDO</h1>
+            <label id="nombre" >Introduce un nombre: </label>
+            <input id="nombre1" type="text" placeholder="Nombre y Apellidos"></text>
+            <button onclick="saludo()">Pulsar</button>
+        </div>
+    </div>
+    
+</body>
+</html>
